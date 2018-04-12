@@ -1,0 +1,10 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://www.webserviceX.NET" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="GetCitiesByCountryResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element type="xs:string" name="GetCitiesByCountryResult"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+
