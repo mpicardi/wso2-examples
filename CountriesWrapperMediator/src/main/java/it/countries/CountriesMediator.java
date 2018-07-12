@@ -9,7 +9,7 @@ public class CountriesMediator extends AbstractMediator {
 	private final static Log LOGGER = LogFactory.getLog(CountriesMediator.class);
 	public boolean mediate(MessageContext context) {
 		System.out.println("--------------------------");
-		System.out.println("-------MEDIATOR MSG STRING-----------");
+		System.out.println("-------MEDIATOR MSG STRING----------- FORZA NAPOLI SEMPRE");
 		System.out.println("Mediator -> " +context.getMessageString());
 		System.out.println("--------------------------");
 		System.out.println("-------MEDIATOR PROPERTY STRING-----------");
